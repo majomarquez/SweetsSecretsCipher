@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sweet Secrets Mi Diario de Vida</title><!-- título al lado de favicon-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" type="imagen/x-icon" href="fotos/favicon.ico"><!-- insertar el favicon-->
+    <style> @import url('https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico|Petit+Formal+Script|Sacramento');
+    </style> <!-- llamar los tipos de letras desde google-->
+    <!-- para que en home al comienzo solo vea la primera pagina-->
+
+</head>
+<body>
+<!-- INICIO ENCABEZADO-->    
+    <header> 
+        <div class="topHeader">
+            <div class="headerLogo"> <!-- poner logotipo-->
+                <img src = "fotos/pictLogo.png"  alt="logo">
+            </div>
+            <div class="titleHeader">
+                <h1>Sweet Secrets</h1>
+                <h4>Diario de Vida</h4> <br/>
+            </div>
+            <div class="pictHome4" >
+                    <img src= "fotos/mariposas.gif"  alt="butterfly">
+            </div>
+            <div class="butonsHeaderWrapper">
+                <a href="index.html#account1"><Strong>Ingresa tu Usuario</Strong></a>
+                <a href="page2.html"><Strong>Crea tu Usuario</Strong></a>
+            </div>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="page5.html">Tus recuerdos</a></li>
+                <li><a href="page4.html">Revelar un secreto</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- FIN ENCABEZADO-->
+
+
+
+<div class ="icons">
+    <div class="offset">
+        <p><Strong>Revelar el secreto que enviaron en muy simple , sólo debes saber que emoticon usaron 
+        para volverlo indecifrable , a continuación los encontrás , selecciona el mismo que uso tu amiga
+        y él se encargará de decifrar el secreto que ella quiere contarte.</Strong></p>
+
+        <div class="imageOffset" id="icono1">
+        <input type="image" src="fotos/purple.png" alt="purple" width=auto>
+        </div>  
+        <div class="imageOffset " id="icono2">
+        <input type="image" src="fotos/blue.png" alt="purple" width=auto>
+        </div>
+        <div class="imageOffset" id="icono3">
+        <input type="image" src="fotos/music.png" alt="purple" width=auto>
+        </div>
+        <div class="imageOffset" id="icono4">
+        <input type="image" src="fotos/sabrina.png" alt="purple" width=auto>
+        </div>     
+        <div class="imageOffset" id="icono5">
+        <input type="image" src="fotos/cuno.png" alt="purple" width=auto>
+        </div>  
+    </div> 
+
+    <div class="offset">
+        <div class="imageOffset" id="icono6">
+        <input type="image" src="fotos/pink.png" alt="purple" width=auto>
+        </div>  
+        <div class="imageOffset " id="icono7">
+        <input type="image" src="fotos/red.png" alt="purple" width=auto>
+        </div>
+        <div class="imageOffset" id="icono8">
+        <input type="image" src="fotos/white.png" alt="purple" width=auto>
+        </div>
+        <div class="imageOffset" id="icono9">
+        <input type="image" src="fotos/yellow.png" alt="purple" width=auto>
+        </div>     
+        <div class="imageOffset" id="icono9">
+        <input type="image" src="fotos/cattttt.png" alt="purple" width=auto>
+        </div>          
+    </div> 
+</div>
+<!-- inicio página 3  <h2><Strong>Bienvenida-->
+    <section class="page4Diary" >
+        <div class="infoDiaryPage4">
+            <h2>Bienvenid@s </h2> </Strong><b>a Sweet Secrets</b></h2>
+            <p> <br/>Soy Purple, vamos a decifrar el mensaje que te enviaron!!!<br>
+            Esto es muy sencillo , tu amiga te dió un texto <br> 
+            secreto y un número. Sólo debes ingresarlos a continuación.<br>
+            Cuando hallas terminado sólo presiona Revela tu secreto.</p>
+            
+            <div class="forDecypher"> 
+                <div class="infoIconoDiary4">
+                    <p> <br/><b>Ingresa el texto</b></p>
+                </div> 
+                
+            <!-- decodifrar--> 
+            <div id="decypher">
+                Número secreto:<input type="number" id="offsetDecypher" min="1"><br> 
+                Ingresa el secreto que quieres revelar:<br> 
+                <textarea rows="6" cols="60" id="decypherText"></textarea><br> 
+                <button onclick="decypherA()">Revela tu secreto</button><br>
+                    
+                <div id="resultDecypher">
+                </div><br> 
+            </div> 
+            </div>
+    </div>
+        
+            <div class="otherPage2">
+              <p><b>¿Quieres guardar un secreto?</b></p> <button onclick="goToCypher()">Ir </button>  
+                   
+        </div>
+    </div> 
+</section>
+    
+    
+
+<footer><!--pie de página-->
+    Sweet Secrets  María José Márquez Laboratoria
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
