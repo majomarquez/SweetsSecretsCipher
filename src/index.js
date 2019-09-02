@@ -1,30 +1,55 @@
+const goToCypherBtn = document.getElementById("goToCypher");
+goToCypherBtn.addEventListener('click', () => {
+    document.getElementById("home").style.display = "none";
+    document.getElementById("icons").style.display = "block";
+    document.getElementById("cypherPage").style.display = "block";
+    document.getElementById("decypherPage").style.display = "none";
+})
+const BackToCypherBtn = document.getElementById("BackToCypher");
+BackToCypherBtn.addEventListener('click', () => {
+    document.getElementById("home").style.display = "none";
+    document.getElementById("icons").style.display = "block";
+    document.getElementById("cypherPage").style.display = "block";
+    document.getElementById("decypherPage").style.display = "none";
+})
+const goToDecypherBtn = document.getElementById("goToDecypher");
+goToDecypherBtn.addEventListener('click', () => {
+    document.getElementById("home").style.display = "none";
+    document.getElementById("icons").style.display = "block";
+    document.getElementById("cypherPage").style.display = "none";
+    document.getElementById("decypherPage").style.display = "block";
+})
 
-function welcome2(){
-  window.location.href='page3.html'
-}
 
-function goToDecypher(){
-  window.location.href='page4.html'
-}
+ //DA EL MENSAJE
+const cypherB = document.getElementById("cypherbtn");
+cypherB.addEventListener('click', () => {
 
-function goToCypher(){
-  window.location.href='page3.html'
-}
+    let cypherTxt = document.getElementById("cypherTxt").value;
+    let offsetCypher = document.getElementById("offsetCypher").value;
+
+    if(parseInt(offsetCypher)<1){
+        document.getElementById("error").innerHTML =  "Debe ser un numero positivo";
+    } else {
+        document.getElementById("resultCypher").innerHTML= cipher.cypher(offsetCypher,cypherTxt);
+        // document.getElementById("error").innerHTML =  "";
+    }
+})
 
 
   //DA EL MENSAJE
-  function cypherA(){
-    let cypherText = document.getElementById("cypherText").value;
-    let offsetCypher = parseInt(document.getElementById("offsetCypher").value);
-    let cypherResult = encode (offsetCypher, cypherText);
-    document.getElementById("resultCypher").innerHTML = cypherResult;
-  }
+const decypherB = document.getElementById("decypherbtn");
+decypherB.addEventListener('click', () => {
 
-  
-    //DA EL MENSAJE
-  function decypherA(){
-    let decypherText = document.getElementById("decypherText").value;
+    let decypherTxt = document.getElementById("decypherTxt").value;
     let offsetDecypher = document.getElementById("offsetDecypher").value;
-    let decypherResult = decode(offsetDecypher, decypherText);
-    document.getElementById("resultDecypher").innerHTML = decypherResult;
-  }
+
+    if(parseInt(offsetDecypher)<1){
+
+        document.getElementById("error").innerHTML =  "Debe ser un numero positivo";
+    } else {
+         document.getElementById("resultDecypher").innerHTML= cipher.decypher(offsetDecypher,decypherTxt);
+        //  document.getElementById("error").innerHTML =  "";
+        }
+    })
+
