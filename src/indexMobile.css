@@ -1,0 +1,66 @@
+@media screen and (min-width: 2px) and (max-width: 767px)  {
+
+    .headerLogo img {
+        width: 250%;
+        padding: 0;
+        margin: 0;
+    }
+    .titleHeader h1 {
+        font-size: 2.5rem;
+        margin: 0;
+    }
+    .gif img {
+        width: 200%;
+    }
+
+    .navbar ul li a{
+    font-size: 13px;
+    }
+    .home1 h3, .home2 h3 {
+        font-size: 27px;
+    }
+
+    p{
+        font-size: 12px;
+
+    }
+    .pictHome1 img {
+    width: 31%;
+    }
+
+    .home2 h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .pictHome2 img {
+        display: none;
+    }
+    footer h2{
+        text-align: center;
+        font-size: 18px;
+    }
+    .otherPage2 p {
+        font-size: 28px;
+        margin: 0;
+        padding: 0%;
+}
+
+/* ------------- */
+
+.row.team {
+    display: none;
+}
+
+.page p{
+    margin: 0;
+    padding: 0%;
+}
+.forDecypher p{
+    font-weight: bold;
+    margin: 0%;
+    padding: 0%;
+}
+button#cypherbtn, button#decypherbtn{
+    float: right;
+}
+}

@@ -84,8 +84,7 @@ footer{
   /* --------------------------------------------------- */
 /* home */
 .welcome{
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding:3%;
 }
 .pictHome1 img{
     width: 75%;
@@ -100,6 +99,9 @@ footer{
 }
 /*Fin index */
 
+.row.cyphImput, .row.decyphImput{
+  padding: 3%;
+}
 .friends{
   color:rgb(110, 109, 110);
   padding-top: 1%;
