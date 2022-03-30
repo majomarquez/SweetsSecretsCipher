@@ -1,49 +1,207 @@
-@media screen and (min-width: 2px) and (max-width: 767px)  {
+#cypherPage, #decypherPage, #icons{
+    display: none;
+}
 
-    .headerLogo img {
-        width: 250%;
-        padding: 0;
-        margin: 0;
-    }
-    .titleHeader h1 {
-        font-size: 2.5rem;
-        margin: 0;
-    }
-    .gif img {
-        width: 200%;
-    }
+html {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
 
-    .navbar ul li a{
-    font-size: 13px;
-    }
-    .home1 h3, .home2 h3 {
-        font-size: 27px;
-    }
+.hdr{
+    display: flex;
+    padding-top: 2%
+}
+p{
+    font-size: 18px;
+    color:rgb(110, 109, 110);
+}
 
-    p{
-        font-size: 12px;
+/*---Header---*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 28px;
+    }
+.headerLogo img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    max-width: 14vh;
+}
+.titleHeader{
+    background-image: url(fotos/mariposas.gif);
+    background-color: white;
+}
+.titleHeader h1 {
+    text-align: center;
+    font-size: 3rem;
+    width: 100%;
+    margin: 0;
+    color: rgb(110, 109, 110);
+    font-family: 'Sacramento', cursive;  
+}
+ .titleHeader h4 {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+}
 
+/*---Body---*/
+.page p{
+    margin: 0 26px;
+    padding: 0%;
+    text-align: center;
+}
+.title-explanation{
+    text-align: center;
+}
+.explanation1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.pictHome1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     }
-    .pictHome1 img {
-    width: 31%;
-    }
+.pictHome1 img {
+    width: 100%;
+    padding-left:20px;
+}
+.pictHome2 img {
+    display: none;
+}
+.otherPage2{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.otherPage2 button {
+    font-size: 15px;
+    background-image: url(fotos/mariposas.gif);
+    background-color: white;
+    border: solid 1px rgb(245 198 196);
+    border-radius: 8px;
+    text-decoration: none;
+  }
+  .otherPage2 button p{
+      margin: 20px;
+  }
+
+
+  .friends{
+    color:rgb(110, 109, 110);
+    padding: 10px;
+    text-align: center;
+  }
+
+  .imageOffset{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+  }
+  #icon{
+      display: flex;
+      justify-content: center;
+    align-items: center;
+
+  }
+  #icono1{
+      background-image: url(./fotos/purple.png);
+      max-width: 5vh;
+      height: 50px;
+      width: 50px;
+      margin: 0px 10px; 
+  }
+  #icono2{
+    background-image: url(./fotos/blue.png);
+    max-width: 5vh;
+    height: 50px;
+    width: 50px;
+    margin: 0px 10px; 
+}
+#icono3{
+    background-image: url(./fotos/pink.png);
+    max-width: 5vh;
+    height: 50px;
+    width: 50px;
+    margin: 0px 10px; 
+}
+#icono4{
+    background-image: url(./fotos/sabrina.png);
+    max-width: 5vh;
+    height: 50px;
+    width: 50px;
+    margin: 0px 10px; 
+}
+#icono5{
+    background-image: url(./fotos/cuno.png);
+    max-width: 5vh;
+    height: 50px;
+    width: 50px;
+    margin: 0px 10px; 
+}
+.imageOffset{
+    height: 10px;
+}
+
+input{
+    width: 50%;
+    margin: 5px 15px;
+    font-size: 16px;
+    font-family: cursive;
+}
+textarea{
+    width: 90%;
+    margin: 5px 15px;
+    font-size: 16px;
+    font-family: cursive;
+}
+.forDecypher button{
+    border: 0;
+    border-radius: 6px;
+    color: white;
+    margin-right: 15px;
+    background: rgb(245 198 196);
+    padding: 9px;
+}
+
+footer{
+    background-color: rgb(249 217 215 / 64%);
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+}
+footer p{
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+
+
+
 
     .home2 h2 {
         font-size: 1.5rem;
         text-align: center;
     }
-    .pictHome2 img {
-        display: none;
-    }
-    footer h2{
-        text-align: center;
-        font-size: 18px;
-    }
-    .otherPage2 p {
-        font-size: 28px;
-        margin: 0;
-        padding: 0%;
-}
+
+
 
 /* ------------- */
 
@@ -51,10 +209,7 @@
     display: none;
 }
 
-.page p{
-    margin: 0;
-    padding: 0%;
-}
+
 .forDecypher p{
     font-weight: bold;
     margin: 0%;
@@ -62,5 +217,4 @@
 }
 button#cypherbtn, button#decypherbtn{
     float: right;
-}
 }

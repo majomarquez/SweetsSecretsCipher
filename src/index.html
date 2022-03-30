@@ -5,191 +5,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sweet Secrets Mi Diario de Vida</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" type="text/css" href="indexMobile.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="shortcut icon" type="imagen/x-icon" href="fotos/favicon.ico">
     <style> @import url('https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico|Petit+Formal+Script|Sacramento'); </style>
 
 </head>
 <body>
-
-    <div class="container-fluid">
+    <div class="container">
         <header>
-            <div class="row hdr">
-                <div class="col-2 col-md-2">
-                    <div class="headerLogo">
-                        <img src = "fotos/pictLogo.png" class="img-responsive"  alt="logo"><a href="index.html"></a>
-                    </div>
-                </div>
-                <div class="col-8 col-md-7">
-                    <div class="titleHeader">
-                        <h1>Sweet Secrets</h1>
-                        <h4>Crea tus secretos</h4> <br/>
-                    </div>
-                </div>
-                <div class="col-2 col-md-2">
-                    <div class="gif" >
-                            <img src ="./fotos/mariposas2.gif" class="img-responsive"  alt="mariposas"><a href="index.html"></a>
-                        </div>
-                    </div>
-                </div>
+            <div class="headerLogo">
+                <a href="index.html"><img src = "fotos/pictLogo.png" alt="logo"></a>
             </div>
-
-                <div class="row navbar">
-                    <div class="col-12">
-                        <ul>
-                            <li><a href=#decypherPage>Revelar un secreto</a></li>
-                            <li><a href=#cypherPage>Crea tus secretos</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-
-
+            <div class="titleHeader">
+                <h1>Sweet Secrets</h1>
+                <h4>Crea tus secretos</h4> <br/>
+            </div>
         </header>
 
         <div class="page" id="home">
-            <div class="welcome">
-                <div class="row">
-                    <div class="col-sm-12 col-md-8">
-                        <div class="row">
-                            <div class="col-sm-12 col-md-6">
-                                <div class="home1">
-                                     <h3>Sweet Secrets</h3> <p>Es un <Strong>Creador de secretos</Strong> para que compartas en secreto 
-                                    todas tus experiencias y sueños con tus amigos  ....
-                                    Anota todo lo que te gusta, y lo mejor cada día , puedes guardar tus secretos en tu pc para
-                                    nunca olvidear  estos hermosos momentos. <br/><br/>
-                                    Para hacerlo más emocionante, cada vez que escribas en <b>Sweet Secrets</b> tus historias se
-                                    guardarán con un código secreto que solo tú o tus amigos podran decifrar. <br/>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-sm-12 col-md-5">
-                                <div class="pictHome1" >
-                                    <img src= "fotos/pictHome1.png" class="img-responsive" alt="rabbit">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4">
-                        <div class="home2"><!--cuadro 2-->
-                            <h2>  ¿Estás lista para comenzar? </h2><br/>
-                            <P> No es necesario crear una cuenta ingresa a <Strong>Crea tus secretos</Strong> o a <Strong>Revela un secreto</Strong> ,sigue las instrucciones y ya
-                            podrás comenzar.<br/><Strong><i>¡Y es que en la vida de una chica pasan cosas emocionantes todos los días!</i></Strong> </p> <h3>Sweet Secrets</h3>
-                            <div class="pictHome2" >
-                                <img src= "fotos/pictHome3.png"  alt="unicorn2">
-                                <img src= "fotos/pictHome3.png"  alt="unicorn2">
-                                <img src= "fotos/pictHome3.png"  alt="unicorn2">
-                            </div>
-                        </div><!--fin cuadro 2-->
-                    </div>
+            <div class="intro">
+                <div class="home1">
+                    <p>Ahora puedes tener tu propio <Strong>Creador de secretos</Strong> para que compartas  
+                    todas tus experiencias y sueños con tus amigos  ....
+                    Anota todo lo que te gusta, y lo mejor cada día , puedes guardar tus secretos y
+                    nunca olvidear  estos hermosos momentos. <br/><br/>
+                    Para hacerlo más emocionante, cada vez que escribas en <b>Sweet Secrets</b> tus historias se
+                    guardarán con un código secreto que solo tú o tus amigos podran decifrar. <br/>
+                    </p>
                 </div>
-            </div>
+            </div>   
+            <div class="title-explanation"><h2>  ¿Estás lista para comenzar? </h2><br/></div>
+            <div class="explanation1" id="explanation1">
+                <div class="pictHome1" >
+                    <img src= "fotos/pictHome1.png" class="img-responsive" alt="rabbit">
+                </div>
+                <div class="start">
+                    <P> No es necesario crear una cuenta ingresa a <Strong>Crea tus secretos</Strong> o a 
+                        <Strong>Revela un secreto</Strong> ,sigue las instrucciones y ya podrás comenzar.<br/>
+                        <Strong><i>¡Y es que en la vida de una chica pasan cosas emocionantes todos los días!</i></Strong> </p>         
+                </div> 
+            </div> 
 
             <div class="otherPage2">
-                <div class="col-12">
-                    <button type="button" class="btn-lg btn-block" id="goToCypher">
-                        <p>¿Quieres guardar un secreto?</p>
-                    </button>
-                </div>
+                <button type="button"  id="goToCypher">
+                    <p>¿Quieres guardar un secreto?</p>
+                </button>
             </div>
         </div>
 
         <div id ="icons">
-            <div class="row team">
-                <div class="col-12">
-                    <div class="friends">
-                        <p>Este es el equipo de Sweet Secret y  te ayudaran con tus secretos</p>
-                    </div>
+            <div class="friends">
+                <p>Este es el equipo de Sweet Secret y te ayudaran con tus secretos</p>
+            </div>
+            <div id ="icon">
+                <div class="imageOffset" id="icono1">
                 </div>
-                <div class="col-1 offset-3 ">
-                    <div class="imageOffset" id="icono1">
-                        <input type="image" src="fotos/purple.png" alt="purple">
-                    </div>
+                <div class="imageOffset " id="icono2">
                 </div>
-                <div class="col-1 ">
-                    <div class="imageOffset " id="icono2">
-                        <input type="image" src="fotos/blue.png" alt="purple">
-                    </div>
+                <div class="imageOffset" id="icono3">
                 </div>
-                <div class="col-1 ">
-                    <div class="imageOffset" id="icono4">
-                        <input type="image" src="fotos/sabrina.png" alt="purple">
-                    </div>
+                <div class="imageOffset" id="icono4">
                 </div>
-                <div class="col-1 ">
-                    <div class="imageOffset" id="icono5">
-                    <input type="image" src="fotos/cuno.png" alt="purple">
-                    </div>
-                </div>
-                <div class="col-1 ">
-                    <div class="imageOffset" id="icono6">
-                        <input type="image" src="fotos/pink.png" alt="purple">
-                    </div>
+                <div class="imageOffset" id="icono5">
                 </div>
             </div>
         </div>
+            
 
         <div class="page" id="cypherPage" >
-            <div class="row cyphImput">
-                <div class="col-12 col-md-6">
-                    <div class="infoDiary">
-                        <p> <br/>Somos el equipo de Swett Secret y vamos ocultar tu secreto!!!<br>
-                        Esto es muy sencillo , elige un número y escribe tu secreto . Sólo debes ingresarlos a continuación.<br>
-                        Cuando hallas terminado sólo presiona Crea tu secreto.</p>
-                        <h2> Sweet Secrets</h2>
-                    </div>
+            <div class=" cyphImput">
+                <div class="infoDiary">
+                    <p> <br/>Ahora a ocultar tu secreto!!!<br>
+                    Sólo debes elegir un número y escribir tu secreto.<br>
+                    Cuando hallas terminado sólo presiona Crea tu secreto.</p>
                 </div>
-                <div class="col-12 col-md-6">
-                    <div class="forDecypher">
-                        <div id="cypher">
-                            <p>Número secreto:</p><input type="number" id="offsetCypher" min="1"><br>
-                            <p>Ingresa el secreto que quieres crear:</p>
-                            <textarea rows="6" cols="60" id="cypherTxt"></textarea><br>
-                            <button  id="cypherbtn">Crea tu secreto</button><br>
-                        </div>
-                    </div>
+            </div>
+            <div class="forDecypher">
+                <div id="cypher">
+                    <p></p><input type="number" id="offsetCypher" min="1" placeholder="Ingresa tu número secreto"><br>
+                    <p></p>
+                    <textarea rows="3" cols="60" id="cypherTxt" placeholder="Ingresa el secreto que quieres crear"></textarea><br>
+                    <button  id="cypherbtn">Crea tu secreto</button><br>
                 </div>
-                <div class="col-12">
-                <textarea rows="4" cols="60" id="resultCypher">Tu secreto es:</textarea><br>
             </div>
-            </div>
-
+            <textarea rows="3" cols="60" id="resultCypher" placeholder="Tu secreto es:"></textarea><br>
             <div class="otherPage2">
-                <div class="col-12">
-                    <button type="button" class="btn-lg btn-block" id="goToDecypher">
+                    <button type="button"  id="goToDecypher">
                         <p>¿Quieres revelar un secreto?</p>
                     </button>
-                </div>
             </div>
         </div>
 
         <div class="page" id="decypherPage" >
-            <div class="row decyphImput">
-                <div class="col-12 col-md-6">
-                    <div class="infoDiary">
-                        <p> <br/>Somos el equipo de Swett Secret y vamos a decifrar el mensaje que te enviaron!!!<br>
-                        Esto es muy sencillo , tu amiga te dió un texto <br>
-                        secreto y un número. Sólo debes ingresarlos a continuación.<br>
-                        Cuando hallas terminado sólo presiona Revela tu secreto.</p>
-                        <h2> Sweet Secrets</h2>
-                    </div>
+            <div class="decyphImput">
+                <div class="infoDiary">
+                    <p> <br/>A decifrar ese mensaje !!!<br>
+                    Esto es muy sencillo, tu amiga te dió un texto <br>
+                    secreto y un número, ingrésalos a continuación.<br>
+                    Cuando termines presiona Revela tu secreto.</p>
                 </div>
-                <div class="col-12 col-md-6">
-                    <div class="forDecypher">
-                        <div id="decypher">
-                            <p>Número secreto:</p><input type="number" id="offsetDecypher" min="1"><br>
-                            <p>Ingresa el secreto que quieres revelar:</p>
-                            <textarea rows="6" cols="60" id="decypherTxt"></textarea><br>
-                            <button id="decypherbtn">Revela tu secreto</button><br>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 ">
-                    <textarea rows="4" cols="60" id="resultDecypher">Tu secreto es:</textarea><br>
-                </div> 
             </div>
+            <div class="forDecypher">
+                <div id="decypher">
+                    <p></p><input type="number" id="offsetDecypher" min="1" placeholder="Ingresa tu número secreto"><br>
+                    <p></p>
+                    <textarea rows="3" cols="60" id="decypherTxt" placeholder="Ingresa el secreto que quieres revelar"></textarea><br>
+                    <button id="decypherbtn">Revela tu secreto</button><br>
+                </div>
+            </div>
+                    <textarea rows="3" cols="60" id="resultDecypher" placeholder="Tu secreto es:"></textarea><br>
             <div class="otherPage2">
                 <div class="col-12">
                     <button type="button" class="btn-lg btn-block" id="BackToCypher">
@@ -200,13 +124,14 @@
         </div>
 
         <footer>
-            <h2>Sweet Secrets  María José Márquez Laboratoria</h2>
+            <p>Sweet Secrets Sitio creado por María José Márquez</p>
+            <a href="https://www.linkedin.com/in/mariajosemarquezperez/" target="_blank">Contacto</a>
         </footer>
     </div>
 
-            <script src="index.js"></script>
-            <script src="cipher.js"></script>
-    </body>
-    </html>
+<script src="index.js"></script>
+<script src="cipher.js"></script>
+</body>
+</html>
 
 <!-- FIN PAGINA HOME-->
