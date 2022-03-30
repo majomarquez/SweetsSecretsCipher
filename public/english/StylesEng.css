@@ -49,10 +49,9 @@ header{
     padding: 0;
     /* margin-bottom: 34px; */
     max-width: 14vh;
-    
 }
 .titleHeader{
-    background-image: url(fotos/mariposas.gif);
+    background-image: url(../fotos/mariposas.gif);
     background-color: white;
 }
 .titleHeader h1 {
@@ -71,7 +70,7 @@ header{
 
 /*---Body---*/
 .page p{
-    margin: 0 20px;
+    margin: 0 26px;
     padding: 0%;
     text-align: center;
 }
@@ -104,7 +103,7 @@ header{
 }
 .otherPage2 button {
     font-size: 15px;
-    background-image: url(fotos/mariposas.gif);
+    background-image: url(../fotos/mariposas.gif);
     background-color: white;
     border: solid 1px #F5C6C4;
     border-radius: 8px;
@@ -130,35 +129,35 @@ header{
     align-items: center;
   }
   #icono1{
-      background-image: url(./fotos/purple.png);
+      background-image: url(../fotos/purple.png);
       max-width: 5vh;
       height: 50px;
       width: 50px;
       margin: 0px 10px; 
   }
   #icono2{
-    background-image: url(./fotos/blue.png);
+    background-image: url(../fotos/blue.png);
     max-width: 5vh;
     height: 50px;
     width: 50px;
     margin: 0px 10px; 
 }
 #icono3{
-    background-image: url(./fotos/pink.png);
+    background-image: url(../fotos/pink.png);
     max-width: 5vh;
     height: 50px;
     width: 50px;
     margin: 0px 10px; 
 }
 #icono4{
-    background-image: url(./fotos/sabrina.png);
+    background-image: url(../fotos/sabrina.png);
     max-width: 5vh;
     height: 50px;
     width: 50px;
     margin: 0px 10px; 
 }
 #icono5{
-    background-image: url(./fotos/cuno.png);
+    background-image: url(../fotos/cuno.png);
     max-width: 5vh;
     height: 50px;
     width: 50px;
