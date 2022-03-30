@@ -27,7 +27,7 @@ header{
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-top: 28px;
+    margin-top: 8px;
     }
 .headerLogo img {
     width: 100%;
@@ -97,14 +97,11 @@ header{
   .otherPage2 button p{
       margin: 20px;
   }
-
-
   .friends{
     color:rgb(110, 109, 110);
     padding: 10px;
     text-align: center;
   }
-
   .imageOffset{
     background-repeat: no-repeat;
     background-position: center;
@@ -115,7 +112,6 @@ header{
       display: flex;
       justify-content: center;
     align-items: center;
-
   }
   #icono1{
       background-image: url(./fotos/purple.png);
@@ -155,7 +151,6 @@ header{
 .imageOffset{
     height: 10px;
 }
-
 input{
     width: 50%;
     margin: 5px 15px;
@@ -180,7 +175,7 @@ textarea{
 footer{
     background-color: rgb(249 217 215 / 64%);
     text-align: center;
-    position: absolute;
+    position:relative;
     bottom: 0;
     width: 100%;
     height: 120px;
