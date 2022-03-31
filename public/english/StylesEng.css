@@ -9,12 +9,7 @@ body{
     margin: 0;
 }
 *, *:before, *:after {
-box-sizing: inherit;
-}
-
-.hdr{
-    display: flex;
-    padding-top: 2%
+    box-sizing: inherit;
 }
 p{
     font-size: 16px;
@@ -32,11 +27,10 @@ h2{
     margin: 3px 8px 3px 39px;
 }
 
-
 /*---Header---*/
 header{
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
     width: 100%;
     margin-top: 8px;
@@ -48,7 +42,7 @@ header{
     width: 100%;
     padding: 0;
     /* margin-bottom: 34px; */
-    max-width: 14vh;
+    /* max-width: 14vh; */
 }
 .titleHeader{
     background-image: url(../fotos/mariposas.gif);
@@ -56,14 +50,14 @@ header{
 }
 .titleHeader h1 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 37px;
     width: 100%;
     margin: 0;
     color: rgb(110, 109, 110);
     font-family: 'Sacramento', cursive;  
 }
  .titleHeader h4 {
-    font-size: 1rem;
+    font-size: 17px;
     text-align: center;
     margin: 0;
 }
@@ -96,7 +90,6 @@ header{
     display: none;
 }
 .otherPage2{
-    margin-top: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -108,34 +101,34 @@ header{
     border: solid 1px #F5C6C4;
     border-radius: 8px;
     text-decoration: none;
-  }
-  .otherPage2 button p{
-      margin: 20px;
-  }
-  .friends{
+}
+.otherPage2 button p{
+    margin: 20px;
+}
+.friends{
     color:rgb(110, 109, 110);
     padding: 10px;
     text-align: center;
-  }
-  .imageOffset{
+}
+.imageOffset{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 150px;
-  }
-  #icon{
-      display: flex;
-      justify-content: center;
+}
+#icon{
+    display: flex;
+    justify-content: center;
     align-items: center;
-  }
-  #icono1{
-      background-image: url(../fotos/purple.png);
-      max-width: 5vh;
-      height: 50px;
-      width: 50px;
-      margin: 0px 10px; 
-  }
-  #icono2{
+}
+#icono1{
+    background-image: url(../fotos/purple.png);
+    max-width: 5vh;
+    height: 50px;
+    width: 50px;
+    margin: 0px 10px; 
+}
+#icono2{
     background-image: url(../fotos/blue.png);
     max-width: 5vh;
     height: 50px;
@@ -168,13 +161,13 @@ header{
 }
 input{
     width: 50%;
-    margin: 5px 15px;
+    margin: 1% 25% 0 25%;
     font-size: 16px;
     font-family: cursive;
 }
 textarea{
     width: 90%;
-    margin: 5px 15px;
+    margin: 1% 5% 1% 5%;
     font-size: 16px;
     font-family: cursive;
 }
@@ -182,11 +175,10 @@ textarea{
     border: 0;
     border-radius: 6px;
     color: white;
-    margin-right: 15px;
+    margin-right: 45%;
     background: #F5C6C4;
     padding: 9px;
 }
-
 footer{
     background-color: rgb(249 217 215 / 64%);
     text-align: center;
@@ -198,28 +190,18 @@ footer{
 footer p{
     text-align: center;
     font-size: 18px;
+    padding-top: 9px;
 }
-
-
-
-
-
-
-
-    .home2 h2 {
-        font-size: 1.5rem;
-        text-align: center;
-    }
-
-
+.home2 h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
 
 /* ------------- */
 
 .row.team {
     display: none;
 }
-
-
 .forDecypher p{
     font-weight: bold;
     margin: 0%;
@@ -228,3 +210,56 @@ footer p{
 button#cypherbtn, button#decypherbtn{
     float: right;
 }
+
+@media (min-width: 701px){
+    p {
+        font-size: 18px
+    }
+    .titleHeader{
+        width: 50%;
+    }
+    .titleHeader h1{
+        font-size: 50px;
+    }
+    .titleHeader h4{
+        font-size: 19px;
+    }
+    .page p {
+        margin: 0 16%;
+    }
+    .pictHome1 img {
+    width: 80%;
+    }
+}
+@media (min-width: 1024px){
+    
+        p {
+            font-size: 22px
+        }
+        h2{
+            font-size: 23px;
+        }
+        .headerLogo {
+            width: 140px;
+        }
+        .titleHeader{
+            width: 50%;
+        }
+        .titleHeader h1{
+            font-size: 60px;
+        }
+        .titleHeader h4{
+            font-size: 25px;
+        }
+        .translation img  {
+            width: 41px;
+        }
+        .pictHome1{
+            margin-left: 5%;
+        }
+        .pictHome1 img {
+            width: 49%;
+        }
+    }
+
+
